@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отчёт</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 900px; margin: auto; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #f0f0f0; }
+    h1 { color: #333; }
+    h2 { color: #555; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Отчёт по данным</h1>
+  <p>Всего строк: <strong>50</strong></p>
+  
+  <h2>Числовые колонки</h2>
+  <table>
+    <thead>
+      <tr><th>Колонка</th><th>Кол-во</th><th>Min</th><th>Max</th><th>Среднее</th></tr>
+    </thead>
+    <tbody>
+  <tr>
+    <td>price</td>
+    <td>50</td>
+    <td>1.63</td>
+    <td>9.86</td>
+    <td>6.01</td>
+  </tr>
+  <tr>
+    <td>quantity</td>
+    <td>50</td>
+    <td>2.00</td>
+    <td>100.00</td>
+    <td>51.24</td>
+  </tr></tbody>
+  </table>
+  
+  <h2>Колонка: product_name</h2>
+  <table>
+    <thead><tr><th>Значение</th><th>Кол-во</th></tr></thead>
+    <tbody><tr><td>Bread</td><td>14</td></tr><tr><td>Milk</td><td>12</td></tr><tr><td>Eggs</td><td>11</td></tr><tr><td>Banana</td><td>7</td></tr><tr><td>Apple</td><td>6</td></tr></tbody>
+  </table>
+  <h2>Колонка: category</h2>
+  <table>
+    <thead><tr><th>Значение</th><th>Кол-во</th></tr></thead>
+    <tbody><tr><td>B</td><td>19</td></tr><tr><td>A</td><td>17</td></tr><tr><td>C</td><td>14</td></tr></tbody>
+  </table>
+</body>
+</html>

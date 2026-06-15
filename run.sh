@@ -40,6 +40,7 @@ case "$1" in
   inside_reporter)
     docker run --rm -v "$DATA_DIR":/data --entrypoint sh reporter -c "ls /data"
     ;;
+    
   *)
     echo "Неизвестная команда: $1"
     ;;
